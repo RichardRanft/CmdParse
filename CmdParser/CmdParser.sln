@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdParser", "CmdParser\CmdParser.csproj", "{19388812-CDCE-4401-97F4-E6AF22EEFF96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdParserTest", "CmdParserTest\CmdParserTest.csproj", "{283BA5CE-1843-42DD-A62A-CF5CA415554F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDB996F8-CFFC-4283-BA00-FDC477677CF5}"
+	ProjectSection(SolutionItems) = preProject
+		CmdParser.nuspec = CmdParser.nuspec
+		CreatePackage.cmd = CreatePackage.cmd
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19388812-CDCE-4401-97F4-E6AF22EEFF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19388812-CDCE-4401-97F4-E6AF22EEFF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19388812-CDCE-4401-97F4-E6AF22EEFF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19388812-CDCE-4401-97F4-E6AF22EEFF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283BA5CE-1843-42DD-A62A-CF5CA415554F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283BA5CE-1843-42DD-A62A-CF5CA415554F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283BA5CE-1843-42DD-A62A-CF5CA415554F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283BA5CE-1843-42DD-A62A-CF5CA415554F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

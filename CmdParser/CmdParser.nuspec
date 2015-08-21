@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>CmdParser</id>
+        <version>1.0.0.1</version>
+        <title>CmdParser</title>
+        <authors>SRES</authors>
+        <owners></owners>
+        <description>A basic module for parsing command line arguments</description>
+        <releaseNotes>1.0.0.1 Released 14 May 2015 - added support for stand-alone "flag" type parameters.</releaseNotes>
+        <summary></summary>
+        <language>en-US</language>
+        <iconUrl>http://scmweb03.engscm.ad.agi/PerforceRegistration/favicon.ico</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework="net45" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="net45" />
+        </frameworkAssemblies>
+        <tags>CmdParser</tags>
+    </metadata>
+    <files>
+        <file src="\bin\CmdParser.dll" target="lib/net45/" />
+    </files>
+</package>
