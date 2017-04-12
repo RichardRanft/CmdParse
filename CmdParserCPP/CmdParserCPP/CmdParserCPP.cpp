@@ -34,8 +34,7 @@ int main(int argc, char* argv[])
 	}
 	bool parsed = parser.Parse(arglist);
 
-	std::map<std::string, std::string> opts = parser.GetOptions();
-
+	std::map<const std::string, const std::string> opts = parser.GetOptions();
 	std::cout << path << " = " << opts[path] << std::endl;
 	std::cout << user << " = " << opts[user] << std::endl;
 	std::cout << vers << " = " << opts[vers] << std::endl;

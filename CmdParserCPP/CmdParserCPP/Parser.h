@@ -14,7 +14,8 @@ class CParser
 {
 private:
 	std::map<std::string, std::pair<EArgType, bool>> m_argRequired;
-	std::map<std::string, std::string> m_argDictionary;
+	std::map<const std::string, const std::string> m_argDictionary;
+	std::map<std::string, std::string> m_argDictTemp;
 	std::string m_state;
 
 public:
@@ -23,5 +24,5 @@ public:
 	~CParser();
 
 	bool Parse(std::list<std::string>);
-	std::map<std::string, std::string> GetOptions();
+	const std::map<const std::string, const std::string>& GetOptions() const;
 };
